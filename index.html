@@ -1,0 +1,280 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick's Recipes</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.webp">
+    <style>
+        body {
+            display: flex;
+            margin: 0px;
+            flex-direction: column;
+            align-items: center;
+            background-color: #383F51;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        footer, header {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #223A44;
+            color: whitesmoke;
+            padding: 20px 0 20px 0;
+
+        }
+        #social-text {
+            color: #00BBF9;
+        }
+        main {
+            width: 1050px;
+            background-color: #D2D0BA;
+            display:flex;
+            border-radius: 20px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        #container {
+            width: 1050px;
+            background-color: #D2D0BA;
+            display:flex;
+            border-radius: 20px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .recipe {
+            width: 300px;
+            height: 400px;
+            overflow-y: scroll;
+            margin: 20px;
+            border: 1px solid #2d2d2d;
+            border-radius: 10px;
+        }
+        a:hover {
+            mix-blend-mode:color-dodge;
+        }
+        .presentation {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+        .presentation img {
+            aspect-ratio: 1;
+            width: 100%;
+        }
+        p {
+            margin: 5px;
+        }
+        nav li {
+            display: inline;
+            background-color: #383F51;
+            padding: 5px 15px;
+        }
+        nav li:hover {
+            background-color: #2d2d2d;
+            
+        }
+        nav a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+        h2 {
+            width: 100%;
+            text-align: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Erick's Recipes</h1>
+        <p>We are not responsible if you become ill</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="display: flexbox; flex-direction: row; flex-wrap: wrap;">
+        <section>
+            <h2>Introduction</h2>
+            <p>I don't know what to say, so I'll be using a lorem ipsum "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quos iusto pariatur iste. Atque corrupti, exercitationem explicabo eligendi, velit molestiae optio obcaecati facere, perferendis suscipit ab dolore? Placeat, architecto deleniti. "</p>
+        </section>
+        <section id="recipes">
+            <h2>List of Recipes</h2>
+            <div id="container">
+                <article class="recipe">
+                    <div class="presentation">
+                        <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_750,h_563/k%2FPhoto%2FSeries%2F2021-07-how-to-eggs-in-a-basket%2F2021-07-20_ATK-7708" alt="basket egg">
+                        <span class="food-title">Basket Egg</span >
+                    </div>
+                    <div class="ingredients">
+                        <strong>Ingredients</strong>
+                        <hr>
+                        <ul>
+                            <li><em>Eggs</em></li>
+                            <li><em>A slice of bread</em></li>
+                            <li><em>A tablespoon of butter</em></li>
+                        </ul>
+                    </div>
+                    <div class="steps">
+                        <strong>Instructions</strong>
+                        <hr>
+                        <ol>
+                            <li>Start to heat the pan</li>
+                            <li>Add the butter to the pan</li>
+                            <li>Cut a hole in the middle of the bread</li>
+                            <li>Dip the bread in the butter, both sides</li>
+                            <li>Put the slice of bread in the pan, then add the egg in the hole</li>
+                            <li>Add salt and black pepper</li>
+                            <li>Cook for 15-20 minutes, until the egg is cooked</li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <div class="presentation">
+                        <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_750,h_563/k%2FPhoto%2FSeries%2F2021-07-how-to-eggs-in-a-basket%2F2021-07-20_ATK-7708" alt="basket egg">
+                        <span class="food-title">Basket Egg</span >
+                    </div>
+                    <div class="ingredients">
+                        <strong>Ingredients</strong>
+                        <hr>
+                        <ul>
+                            <li><em>Eggs</em></li>
+                            <li><em>A slice of bread</em></li>
+                            <li><em>A tablespoon of butter</em></li>
+                        </ul>
+                    </div>
+                    <div class="steps">
+                        <strong>Instructions</strong>
+                        <hr>
+                        <ol>
+                            <li>Start to heat the pan</li>
+                            <li>Add the butter to the pan</li>
+                            <li>Cut a hole in the middle of the bread</li>
+                            <li>Dip the bread in the butter, both sides</li>
+                            <li>Put the slice of bread in the pan, then add the egg in the hole</li>
+                            <li>Add salt and black pepper</li>
+                            <li>Cook for 15-20 minutes, until the egg is cooked</li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <div class="presentation">
+                        <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_750,h_563/k%2FPhoto%2FSeries%2F2021-07-how-to-eggs-in-a-basket%2F2021-07-20_ATK-7708" alt="basket egg">
+                        <span class="food-title">Basket Egg</span >
+                    </div>
+                    <div class="ingredients">
+                        <strong>Ingredients</strong>
+                        <hr>
+                        <ul>
+                            <li><em>Eggs</em></li>
+                            <li><em>A slice of bread</em></li>
+                            <li><em>A tablespoon of butter</em></li>
+                        </ul>
+                    </div>
+                    <div class="steps">
+                        <strong>Instructions</strong>
+                        <hr>
+                        <ol>
+                            <li>Start to heat the pan</li>
+                            <li>Add the butter to the pan</li>
+                            <li>Cut a hole in the middle of the bread</li>
+                            <li>Dip the bread in the butter, both sides</li>
+                            <li>Put the slice of bread in the pan, then add the egg in the hole</li>
+                            <li>Add salt and black pepper</li>
+                            <li>Cook for 15-20 minutes, until the egg is cooked</li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <div class="presentation">
+                        <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_750,h_563/k%2FPhoto%2FSeries%2F2021-07-how-to-eggs-in-a-basket%2F2021-07-20_ATK-7708" alt="basket egg">
+                        <span class="food-title">Basket Egg</span >
+                    </div>
+                    <div class="ingredients">
+                        <strong>Ingredients</strong>
+                        <hr>
+                        <ul>
+                            <li><em>Eggs</em></li>
+                            <li><em>A slice of bread</em></li>
+                            <li><em>A tablespoon of butter</em></li>
+                        </ul>
+                    </div>
+                    <div class="steps">
+                        <strong>Instructions</strong>
+                        <hr>
+                        <ol>
+                            <li>Start to heat the pan</li>
+                            <li>Add the butter to the pan</li>
+                            <li>Cut a hole in the middle of the bread</li>
+                            <li>Dip the bread in the butter, both sides</li>
+                            <li>Put the slice of bread in the pan, then add the egg in the hole</li>
+                            <li>Add salt and black pepper</li>
+                            <li>Cook for 15-20 minutes, until the egg is cooked</li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article class="recipe">
+                    <div class="presentation">
+                        <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_750,h_563/k%2FPhoto%2FSeries%2F2021-07-how-to-eggs-in-a-basket%2F2021-07-20_ATK-7708" alt="basket egg">
+                        <span class="food-title">Basket Egg</span >
+                    </div>
+                    <div class="ingredients">
+                        <strong>Ingredients</strong>
+                        <hr>
+                        <ul>
+                            <li><em>Eggs</em></li>
+                            <li><em>A slice of bread</em></li>
+                            <li><em>A tablespoon of butter</em></li>
+                        </ul>
+                    </div>
+                    <div class="steps">
+                        <strong>Instructions</strong>
+                        <hr>
+                        <ol>
+                            <li>Start to heat the pan</li>
+                            <li>Add the butter to the pan</li>
+                            <li>Cut a hole in the middle of the bread</li>
+                            <li>Dip the bread in the butter, both sides</li>
+                            <li>Put the slice of bread in the pan, then add the egg in the hole</li>
+                            <li>Add salt and black pepper</li>
+                            <li>Cook for 15-20 minutes, until the egg is cooked</li>
+                        </ol>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>This is a conclusion of the recipes. I still don't know what to say so I'll use another Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus error inventore doloribus iure itaque dolores, animi fugiat est ratione amet mollitia repellat atque! Cupiditate necessitatibus magni similique sit minima nostrum?</p>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>I don't know what else to say, so this is my <br><span class="food-title" id="social-text">Social Media</span class="food-title"></p>
+        <a href="https://x.com/ErickDKnight_" target="_blank">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-logo-icon.png" alt="basket egg" style="width:40px; height:40px">
+        </a>
+    </footer>
+    
+</body>
+</html>
